@@ -1,6 +1,6 @@
 {
   "name": "cemitter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Super tiny, closure-based event emitter.",
   "main": "cemitter.js",
   "files": [
