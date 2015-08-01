@@ -14,7 +14,7 @@ function emitter() {
   const events = {}
 
   /**
-   * Add `event`.
+   * Register `event` with the given `callback`.
    *
    * @param {String} event
    * @param {Function} callback
@@ -27,7 +27,7 @@ function emitter() {
   }
 
   /**
-   * Trigger `event` and pass `...data`.
+   * Trigger `event` and pass the `...data`.
    *
    * @param {String} event
    * @param {Mixed} ...data
